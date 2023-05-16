@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/videoOneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video One" />
+
+    <Button
+        android:id="@+id/videoTwoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Two" />
+
+    <Button
+        android:id="@+id/videoThreeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Three" />
+</LinearLayout>
